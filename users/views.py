@@ -10,6 +10,7 @@ def register():
     if form.validate_on_submit():
         print(request.form.get('username'))
         print(request.form.get('password'))
+        print(request.form.get('confirm_password'))
         return redirect(url_for('user.login'))
 
     return render_template('users/register.html', form=form)
