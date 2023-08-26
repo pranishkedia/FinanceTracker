@@ -1,2 +1,4 @@
 Flask
 SQLAlchemy
+WTForms
+Flask-WTF
